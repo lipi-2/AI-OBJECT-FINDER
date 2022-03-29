@@ -2,10 +2,10 @@ status = ""
 
 function setup()
 {
-  canvas = createCanvas(300, 300);
+  canvas = createCanvas(300, 250);
   canvas.center();
   video = createCapture(VIDEO);
-  video.size(300,300)
+  video.size(300,250)
   video.hide();
 }
 
